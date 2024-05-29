@@ -1,0 +1,13 @@
+{% extends './base.html' %}
+
+{% block title %}Home page{% endblock %}
+
+{% block content %}
+<section class="home">
+    <div class="container">
+        <h1>My first project</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ad est soluta exercitationem sed, accusantium dolorem totam impedit illum corrupti dolore, corporis, consequatur rerum delectus repellendus? Enim neque repudiandae amet.</p>
+        <a href="{% url 'news_page' %}" class="button_light">News</a>
+    </div>
+</section>
+{% endblock %}
